@@ -1,0 +1,108 @@
+html, body{
+	margin: 0;
+	padding: 0;
+}
+.back{
+	position: absolute;
+	color: white;
+	background-color: #405180;
+	Text-decoration: none;
+	top: 7.5vw;
+	transform: translateY(-50%);
+	width: 7vw;
+	height: 3vw;
+  font-size: 1.5vw;
+	text-align: center;
+	line-height: 3vw;
+	left: 3vw;
+	border-radius: 10px;
+	transition: 0.4s;
+}
+.back:hover{
+	background-color: #26304D;
+}
+.top{
+	width: 100%;
+	height: 15vw;
+	margin: 0;
+	background-color: #868EA3;
+	line-height: 15vw;
+	text-align: center;
+	color: white;
+	font-size: 4vw;
+	letter-spacing: 0.3vw;
+	margin-bottom: 3vw;
+}
+.text_thing{
+	width: 100vw;
+	display: flex;
+	justify-content: center;
+	margin-top: 2vw;
+	//opacity: 0;
+}
+.text{
+	margin-right: 1vw;
+}
+.enter{
+	margin-left: 1vw;
+	background-color: #85A1D9;
+	width: 2.3vw;
+  	height: 2.3vw;
+  	line-height: 2.3vw;
+	color: white;
+	text-align: center;
+	border-radius: 100%;
+	font-size: 1.8vw;
+	cursor: pointer;
+}
+.wait{
+  width: 50vw;
+  border:  solid 3px rgba(0, 0, 0, 0.3);
+  margin: auto;
+  margin-top: 3vw;
+  padding: 1vw;
+  border-radius: 10px;
+  overflow: hidden;
+  opacity: 0;
+}
+.onething{
+  margin-bottom: 3vw;
+  margin: auto;
+}
+.toDo{
+	text-align: center;
+	font-size: 3vw;
+	color: rgba(0, 0, 0, 0.7);
+	font-family: 'Nerko One', cursive;
+}
+hr{
+	background-color: rgba(0, 0, 0, 0.3);
+	height: 0.05vw;
+	width: 100%;
+	margin-bottom: 1vw;
+}
+/*參考資料：https://ithelp.ithome.com.tw/articles/10279092?sc=iThelpR*/
+.ip{
+	cursor: pointer;
+	appearance:none;
+	margin-bottom: 0;
+	background-color: rgba(0, 0, 0, 0.3);
+	width: 1.5vw;
+	height: 1.5vw;
+	border-radius: 3px;
+}
+.ip:checked{
+  	background-color: #85A1D9;
+}
+.ip:checked+label{
+	text-decoration:line-through 1px solid rgba(0, 0, 0, 0.3);
+	color: rgba(0, 0, 0, 0.3);
+}
+.ip:checked:after{
+	content:"✓";
+	color: white;
+	margin-left: 0.3vw;
+}
+.cb{
+	margin-left: 1vw;
+}
