@@ -48,10 +48,22 @@ html, body{
 	display: inline-block;
 }
 .enter{
-	margin: 0;
 	text-align: center;
 	cursor: pointer;
 	margin-top: 1vw;
+	background-color: #325C9C;
+	color: white;
+	width: 8vw;
+	height: 2.5vw;
+	line-height: 2.5vw;
+	margin: auto;
+	margin-top: 2vw;
+	border-radius: 5px;
+	transition: 0.3s;
+}
+.enter:hover{
+	color: #325C9C;
+	background-color: #C7DAE3;
 }
 .bmi_val{
 	margin: 0;
