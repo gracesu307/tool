@@ -1,8 +1,7 @@
-html, body{
-	width: 100vw;
-	height: 100vw;
+body{
 	margin: 0;
 	padding: 0;
+	background-color: rgba(143, 175, 217, 0.1);
 }
 .top{
 	width: 100vw;
@@ -17,6 +16,7 @@ html, body{
 .menu{
 	display: flex;
 	justify-content: center;
+	background-color: none;
 }
 a{
 	color: white;
@@ -24,7 +24,7 @@ a{
 	Text-decoration: none;
 	width: 9vw;
 	height: 4vw;
-  font-size: 1.5vw;
+  	font-size: 1.5vw;
 	text-align: center;
 	line-height: 4vw;
 	left: 3vw;
@@ -34,4 +34,120 @@ a{
 }
 a:hover{
 	background-color: #26304D;
+}
+.icon{
+	width: 2.5vw;
+	height: 2.5vw;
+	border-radius: 100%;
+}
+#sticket{
+	width: 7vw;
+}
+.msn{
+	padding: 0.5vw 1vw;
+	border-radius: 20px;
+	margin: 0 1vw;
+}
+.one{
+	margin: 2.5vw;
+	background-color: rgba(0 ,0 ,0 ,0);
+	display: flex;
+	align-items: center;
+	opacity: 0;
+}
+.chat{
+	width: 50vw;
+	background-image: linear-gradient(to bottom right, #8FAFD9, #748EB0); /*漸層參考：https://ithelp.ithome.com.tw/articles/10190867*/
+	margin: auto;
+	padding: 2vw;
+}
+.n{
+	justify-content: right;
+}
+.nm{
+	background-color: #7BD96C;
+	color:  black;
+}
+.rm{
+	background-color: #F2F2F2;
+	color: black;
+}
+#winter{
+	position: relative;
+	width: 60vw;
+	left: 50%;
+	transform: translateX(-50%);
+	background-color: none;
+}
+.wintercamp{
+	font-size: 3vw;
+	text-align: center;
+	margin: 4vw;
+	font-family: 'RocknRoll One', sans-serif;
+	background-color: none;
+}
+iframe{
+	position: relative;
+	left: 50%;
+	transform: translateX(-50%);
+	background-color: none;
+}
+.form{
+	font-size: 2.5vw;
+	text-align: center;
+	margin: 2vw;
+	opacity: 0;
+	animation: show 0.3s 19s forwards;
+}
+@keyframes show{
+	0%{
+		opacity: 0;
+	}
+	100%{
+		opacity: 1;
+	}
+}
+.no1{
+	animation: show 0.3s 1s forwards;
+}
+.no2{
+	animation: show 0.3s 3s forwards;
+}
+.no3{
+	animation: show 0.3s 5s forwards;
+}
+.no4{
+	animation: show 0.3s 7s forwards;
+}
+.no5{
+	animation: show 0.3s 9s forwards;
+}
+.no6{
+	animation: show 0.3s 11s forwards;
+}
+.no7{
+	animation: show 0.3s 13s forwards;
+}
+.no8{
+	animation: show 0.3s 15s forwards;
+}
+.no9{
+	animation: show 0.3s 17s forwards;
+}
+.no10{
+	animation: show 0.3s 19s forwards;
+}
+@keyframes wcShow{
+	from{
+		overflow: hidden;
+	}
+	to{
+		overflow: visible;
+	}
+}
+.wc{
+	height: 10px;
+	overflow: hidden;
+	animation: wcShow 0.5s 19.5s forwards;
+	background-color: none;
 }
